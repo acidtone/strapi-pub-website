@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_items",
+  "info": {
+    "singularName": "menu-item",
+    "pluralName": "menu-items",
+    "displayName": "Menu Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Dish": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Vegetarian": {
+      "type": "boolean"
+    },
+    "GF": {
+      "type": "boolean"
+    },
+    "menu_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::menu-category.menu-category",
+      "inversedBy": "menu_items"
+    },
+    "DishAlternative": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-components.dish-price"
+    },
+    "DishAddon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-components.dish-addon"
+    },
+    "ShipFavourite": {
+      "type": "boolean"
+    }
+  }
+}

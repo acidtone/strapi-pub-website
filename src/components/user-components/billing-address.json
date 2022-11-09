@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_user_components_billing_addresses",
+  "info": {
+    "displayName": "Address",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "StateProvince": {
+      "type": "string"
+    },
+    "PostalZIP": {
+      "type": "string"
+    }
+  }
+}

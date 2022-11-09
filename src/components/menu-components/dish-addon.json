@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_components_dish_addons",
+  "info": {
+    "displayName": "DishAddon",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "AddonDescription": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Quantity": {
+      "type": "integer"
+    }
+  }
+}

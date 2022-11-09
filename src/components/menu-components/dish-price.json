@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_components_dish_prices",
+  "info": {
+    "displayName": "DishPrice",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "PriceDescription": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
